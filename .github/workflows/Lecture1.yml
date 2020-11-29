@@ -33,4 +33,4 @@ jobs:
       - name: Insatlling surge
         run: npm install -g surge
       - name: Deploying surge
-        run: surge ./ http://noiseless-rings.surge.sh/ --token $ {{ secrets.MY_SECRET }}
+        run: surge ./E:\BootCamp\Lecture1 http://noiseless-rings.surge.sh/ --token $ {{ secrets.MY_SECRET }}

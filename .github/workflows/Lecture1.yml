@@ -35,4 +35,4 @@ jobs:
       - name: Insatlling surg
         run: npm install --global surge
       - name: Deploying surge
-        run: surge ./http://noiseless-rings.surge.sh/ --token ${{ secret.MY_SECRET }}
+        run: surge ./http://noiseless-rings.surge.sh/ --token ${{ secrets.MY_SECRET }}

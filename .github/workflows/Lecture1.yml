@@ -33,5 +33,4 @@ jobs:
       - name: Insatlling surge
         run: npm install -g surge
       - name: Deploying surge
-        run: surge ./ noiseless-rings.surge.sh/ --token "283e083dc2a98c43e8d200a5d74f25af"
-
+        run: surge ./ noiseless-rings.surge.sh/ --token $ {{ secrets.CHUP_CHAP }}
